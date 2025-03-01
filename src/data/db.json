@@ -1,0 +1,121 @@
+{
+  "products": [
+    {
+      "sku": "APL-001",
+      "name": "Crisp Red Apples",
+      "description": "Freshly harvested red apples with a sweet and juicy flavor. Perfect for snacking or baking your favorite pies. These apples are rich in fiber and essential vitamins, promoting a healthy lifestyle.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Manzana_Envy.jpg",
+      "category": {
+        "id": "fruits",
+        "name": "Fruits"
+      },
+      "brand": "Nature's Delight",
+      "price": 3.50,
+      "stock": 120
+    },
+    {
+      "sku": "BNN-002",
+      "name": "Organic Bananas",
+      "description": "Naturally ripened organic bananas, offering a creamy texture and rich sweetness. Ideal for smoothies, baking, or a quick energy boost. Packed with potassium and dietary fiber for overall well-being.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Banana-Single.jpg/800px-Banana-Single.jpg",
+      "category": {
+        "id": "fruits",
+        "name": "Fruits"
+      },
+      "brand": "Tropical Harvest",
+      "price": 1.20,
+      "stock": 200
+    },
+    {
+      "sku": "MLK-003",
+      "name": "Fresh Whole Milk",
+      "description": "Creamy and rich whole milk sourced from grass-fed cows. Pasteurized to retain natural nutrients and flavor. Ideal for drinking, cooking, or baking, providing essential calcium and protein.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/01/Milk-bottle.jpg",
+      "category": {
+        "id": "dairy",
+        "name": "Dairy Products"
+      },
+      "brand": "Dairy Pure",
+      "price": 2.99,
+      "stock": 180
+    },
+    {
+      "sku": "EGG-004",
+      "name": "Free-Range Eggs",
+      "description": "A dozen large free-range eggs with vibrant yolks and firm whites. Hens are raised in open pastures, ensuring high-quality eggs rich in flavor and nutrients. Perfect for any culinary creation.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Eggs_20220410_173301.jpg",
+      "category": {
+        "id": "dairy",
+        "name": "Dairy Products"
+      },
+      "brand": "Golden Yolk Farms",
+      "price": 4.50,
+      "stock": 90
+    },
+    {
+      "sku": "BRD-005",
+      "name": "Whole Grain Bread",
+      "description": "Freshly baked whole grain bread with a hearty texture and nutty flavor. Made with 100% whole grains, providing fiber and essential nutrients. Ideal for sandwiches or toasting.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Breads_of_Moskovskaya_Oblast._img_006.jpg",
+      "category": {
+        "id": "bakery",
+        "name": "Bakery"
+      },
+      "brand": "Baker's Choice",
+      "price": 3.00,
+      "stock": 60
+    },
+    {
+      "sku": "CHS-006",
+      "name": "Aged Cheddar Cheese",
+      "description": "Sharp and tangy aged cheddar cheese with a firm texture. Perfect for cheese boards, melting over dishes, or snacking. Rich in calcium and protein, enhancing any meal.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Quesos-LaRural-00921.jpg",
+      "category": {
+        "id": "dairy",
+        "name": "Dairy Products"
+      },
+      "brand": "Cheese Crafters",
+      "price": 5.75,
+      "stock": 50
+    },
+    {
+      "sku": "BTR-007",
+      "name": "Unsalted Butter",
+      "description": "Creamy unsalted butter made from fresh cream. Ideal for baking, cooking, or spreading, allowing control over seasoning. Adds richness and flavor to any dish.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/2023_Mas%C5%82o_w_maselniczce.jpg",
+      "category": {
+        "id": "dairy",
+        "name": "Dairy Products"
+      },
+      "brand": "Creamery Gold",
+      "price": 4.00,
+      "stock": 70
+    },
+    {
+      "sku": "YGT-008",
+      "name": "Greek Yogurt",
+      "description": "Thick and creamy Greek yogurt with a rich taste. High in protein and probiotics, promoting digestive health. Enjoy plain, with fruits, or as a base for smoothies and sauces.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Yogurtland_Yogurt_High_Res.jpg",
+      "category": {
+        "id": "dairy",
+        "name": "Dairy Products"
+      },
+      "brand": "Yogi's Delight",
+      "price": 3.25,
+      "stock": 85
+    },
+    {
+      "sku": "BFS-009",
+      "name": "Grass-Fed Beef Steak",
+      "description": "Juicy and tender beef steak from grass-fed cattle. Rich in flavor and nutrients, perfect for grilling or pan-searing. A premium choice for meat lovers seeking quality.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Eye_Fillet%2C_Grass-Fed_Beef.jpg",
+      "category": {
+        "id": "meat",
+        "name": "Meat"
+      },
+      "brand": "Prime Cuts",
+      "price": 15.00,
+      "stock": 40
+    }
+  ]
+}
