@@ -4,7 +4,6 @@ const JSON_SERVER_URL = `${process.env.NEXT_PUBLIC_JSON_SERVER_URL}/products`;
 
 export async function GET(request: NextRequest) {
   const page = request.nextUrl.searchParams.get('_page');
-  console.log({ page });
   try {
     const res = await fetch(`${JSON_SERVER_URL}?_page=${page}`);
 
