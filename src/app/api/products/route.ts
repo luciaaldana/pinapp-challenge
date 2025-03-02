@@ -1,10 +1,12 @@
-import { NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
 
 const JSON_SERVER_URL = `${process.env.NEXT_PUBLIC_JSON_SERVER_URL}/products`;
 
-export async function GET() {
+export async function GET(request: NextRequest) {
+  const page = request.nextUrl.searchParams.get('_page');
+  console.log({ page });
   try {
-    const res = await fetch(JSON_SERVER_URL, { cache: 'no-store' });
+    const res = await fetch(`${JSON_SERVER_URL}?_page=${page}`);
 
     if (!res.ok) {
       return NextResponse.json(

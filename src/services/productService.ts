@@ -1,7 +1,7 @@
 const BASE_URL = `${process.env.NEXT_PUBLIC_API_URL}/api/products`;
 
-export async function getProducts() {
-  const res = await fetch(BASE_URL, { cache: 'no-store' });
+export async function getProducts({ page }: { page: string }) {
+  const res = await fetch(`${BASE_URL}?_page=${page}`);
   const response = await res.json();
 
   return response;

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Roboto } from 'next/font/google';
+import QueryProvider from '@/lib/QueryProvider';
 import { ThemeProvider, StyledEngineProvider } from '@mui/material/styles';
 import theme from '@/theme';
 import './globals.css';
@@ -24,9 +25,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${roboto.variable} antialiased`}>
-        <StyledEngineProvider>
-          <ThemeProvider theme={theme}>{children}</ThemeProvider>
-        </StyledEngineProvider>
+        <QueryProvider>
+          <StyledEngineProvider>
+            <ThemeProvider theme={theme}>{children}</ThemeProvider>
+          </StyledEngineProvider>
+        </QueryProvider>
       </body>
     </html>
   );
