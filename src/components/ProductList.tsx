@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import InfiniteScroll from 'react-infinite-scroller';
 import { useInfiniteProducts } from '@/hook/useInfiniteProducts';
 import { TInitialData } from '@/types';
@@ -29,6 +30,9 @@ const ProductList = ({ initialData }: { initialData: TInitialData }) => {
               <div key={product.sku} className="bg-white p-4 h-40 m-4 w-full rounded-lg shadow-md">
                 <h1 className="text-xl font-bold text-gray-800">{product.name}</h1>
                 <h1 className="text-xl font-bold text-gray-800">{product.sku}</h1>
+                <Link href={`/products/${product.sku}`} className="text-blue-500">
+                  Ver Detalle
+                </Link>
               </div>
             );
           })}
