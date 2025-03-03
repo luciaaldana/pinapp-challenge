@@ -11,7 +11,7 @@ export const useInfiniteProducts = (initialData?: TInitialData) => {
     },
     initialPageParam: '1',
     getNextPageParam: (lastPage) => {
-      return lastPage.data.next ? lastPage.data.next : undefined;
+      return lastPage?.data?.next ? lastPage.data.next : undefined;
     },
     initialData: initialData
       ? {

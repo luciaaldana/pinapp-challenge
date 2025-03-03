@@ -11,7 +11,7 @@
       },
       "brand": "Golden Yolk Farms",
       "price": 4.50,
-      "stock": 90
+      "stock": 0
     },
     {
       "sku": "BRD-005",
@@ -24,7 +24,7 @@
       },
       "brand": "Baker's Choice",
       "price": 3.00,
-      "stock": 60
+      "stock": 6
     },
     {
       "sku": "CHS-006",
@@ -76,7 +76,7 @@
       },
       "brand": "Prime Cuts",
       "price": 15.00,
-      "stock": 40
+      "stock": 0
     },
     {
       "sku": "APL-002",
@@ -167,7 +167,7 @@
       },
       "brand": "Creamery Gold",
       "price": 4.00,
-      "stock": 70
+      "stock": 7
     },
     {
       "sku": "YGT-009",
@@ -219,7 +219,7 @@
       },
       "brand": "Tropical Harvest",
       "price": 1.20,
-      "stock": 200
+      "stock": 2
     },
     {
       "sku": "MLK-005",
@@ -271,7 +271,7 @@
       },
       "brand": "Cheese Crafters",
       "price": 5.75,
-      "stock": 50
+      "stock": 5
     },
     {
       "sku": "BTR-009",
@@ -336,7 +336,7 @@
       },
       "brand": "Tropical Harvest",
       "price": 1.20,
-      "stock": 200
+      "stock": 0
     },
     {
       "sku": "MLK-006",
@@ -362,7 +362,7 @@
       },
       "brand": "Golden Yolk Farms",
       "price": 4.50,
-      "stock": 90
+      "stock": 0
     },
     {
       "sku": "BRD-008",

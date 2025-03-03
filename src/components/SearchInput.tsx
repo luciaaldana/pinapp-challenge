@@ -1,8 +1,8 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
-import { useDebounce } from '@/hook/useDebounce';
 import { Box, TextField } from '@mui/material';
+import { useDebounce } from '@/hook/useDebounce';
 import { TInitialData } from '@/types';
 
 const SearchInput = ({
@@ -49,9 +49,11 @@ const SearchInput = ({
         sx={{
           '& .MuiOutlinedInput-root': {
             '& fieldset': { borderColor: '#00a63e' },
-            '&:hover fieldset': { borderColor: '#026627' },
-            '&.Mui-focused fieldset': { borderColor: '#026627' },
+            '&:hover fieldset': { borderColor: '#026627', borderWidth: '1px' },
+            '&.Mui-focused fieldset': { borderColor: '#026627', borderWidth: '1px' },
           },
+          '& .MuiInputLabel-root': { color: '#99a1af' },
+          '& .MuiInputLabel-root.Mui-focused': { color: '#026627' },
         }}
       />
     </Box>

@@ -2,6 +2,11 @@ const BASE_URL = `${process.env.NEXT_PUBLIC_API_URL}/api/products`;
 
 export async function getProducts({ page }: { page: string }) {
   const res = await fetch(`${BASE_URL}?_page=${page}`);
+
+  if (!res.ok) {
+    throw new Error('Failed to fetch data');
+  }
+
   const response = await res.json();
 
   return response;
@@ -9,6 +14,7 @@ export async function getProducts({ page }: { page: string }) {
 
 export async function getProductBySku(sku: string) {
   const res = await fetch(`${BASE_URL}/${sku}`, { cache: 'no-store' });
+
   const response = await res.json();
 
   return response;
