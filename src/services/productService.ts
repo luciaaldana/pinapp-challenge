@@ -1,10 +1,12 @@
+import { redirect } from 'next/navigation';
+
 const BASE_URL = `${process.env.NEXT_PUBLIC_API_URL}/api/products`;
 
 export async function getProducts({ page }: { page: string }) {
   const res = await fetch(`${BASE_URL}?_page=${page}`);
 
   if (!res.ok) {
-    throw new Error('Failed to fetch data');
+    redirect('/error');
   }
 
   const response = await res.json();
