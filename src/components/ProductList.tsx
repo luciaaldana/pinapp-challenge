@@ -6,6 +6,7 @@ import { useInfiniteProducts } from '@/hook/useInfiniteProducts';
 import ProductCard from './ProductCard';
 import SearchInput from './SearchInput';
 import { TInitialData } from '@/types';
+import GradientCircularProgress from './GradientCircularProgress';
 
 const ProductList = ({ initialData }: { initialData: TInitialData }) => {
   const { products } = useInfiniteProducts(initialData);
@@ -33,9 +34,9 @@ const ProductList = ({ initialData }: { initialData: TInitialData }) => {
           }}
           hasMore={products.hasNextPage}
           loader={
-            <div className="loader" key={0}>
-              Loading ...
-            </div>
+            <Box key="loader" className="flex justify-center items-center h-40">
+              <GradientCircularProgress />
+            </Box>
           }
           threshold={100}
         >

@@ -1,16 +1,19 @@
 import Link from 'next/link';
-import { Card, CardActions, CardContent, CardMedia, Chip, Typography } from '@mui/material';
+import { Box, CardActions, CardContent, CardMedia, Typography } from '@mui/material';
 import { IProduct } from '@/types';
 
 const ProductCard = ({ product }: { product: IProduct }) => (
-  <Card className="max-w-345 ">
+  <Box className="max-w-345 border border-gray-300 rounded-xl">
     <CardMedia
       component="img"
       alt="green iguana"
       src={product.image.toString()}
-      className="object-contain h-48 w-full"
+      className="object-contain h-48 w-full rounded-t-xl"
     />
     <CardContent className="px-2">
+      <Typography variant="body2" className="text-gray-400">
+        {product.brand.toUpperCase()}
+      </Typography>
       <Typography
         gutterBottom
         variant="h5"
@@ -21,29 +24,24 @@ const ProductCard = ({ product }: { product: IProduct }) => (
           WebkitBoxOrient: 'vertical',
           WebkitLineClamp: 1,
           overflow: 'hidden',
+          fontSize: '1rem',
+          marginBottom: '4px',
         }}
       >
         {product.name}
       </Typography>
       <Typography
-        variant="body2"
+        className="text-green-600"
         sx={{
-          color: 'text.secondary',
-          marginBottom: '4px',
-          fontWeight: 'bold',
+          fontSize: '12px',
+          border: '1px solid #00a63e',
+          borderRadius: '50px',
+          padding: '4px 8px',
+          marginBottom: '8px',
+          display: 'inline',
         }}
       >
-        $ {product.price.toFixed(2)}
-      </Typography>
-      <Chip label={product.category.name} variant="outlined" className="mb-2" size="small" color="primary" />
-      <Typography
-        variant="body2"
-        sx={{
-          color: 'text.secondary',
-          marginBottom: '4px',
-        }}
-      >
-        {product.brand}
+        {product.category.name.toUpperCase()}
       </Typography>
       <Typography
         variant="body2"
@@ -51,23 +49,35 @@ const ProductCard = ({ product }: { product: IProduct }) => (
           color: 'text.secondary',
           display: '-webkit-box',
           WebkitBoxOrient: 'vertical',
-          WebkitLineClamp: 3,
+          WebkitLineClamp: 1,
           overflow: 'hidden',
+          margin: '8px 0',
         }}
       >
         {product.description}
+      </Typography>
+      <Typography
+        variant="h2"
+        sx={{
+          marginBottom: '4px',
+          fontWeight: 'bold',
+          fontSize: '1.25rem',
+          color: '#00a63e',
+        }}
+      >
+        $ {product.price.toFixed(2)}
       </Typography>
     </CardContent>
     <CardActions className="px-2">
       <Link
         href="/products/[sku]"
         as={`/products/${product.sku}`}
-        className="inline-block px-3 py-1.5 text-sm font-medium text-blue-600 bg-transparent border border-transparent rounded-md hover:bg-blue-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+        className="inline-block px-3 py-1.5 text-sm font-medium bg-green-600 text-grey-600 rounded-2xl w-full border border-transparent text-center hover:bg-green-700 "
       >
         SEE DETAILS
       </Link>
     </CardActions>
-  </Card>
+  </Box>
 );
 
 export default ProductCard;
