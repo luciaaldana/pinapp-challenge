@@ -1,8 +1,8 @@
 import { getProductBySku } from '@/services/productService';
 import { notFound } from 'next/navigation';
 
-export default async function ProductPage({ params }: { params: { sku: string } }) {
-  const sku = params.sku;
+export default async function ProductPage({ params }: { params: Promise<{ sku: string }> }) {
+  const { sku } = await params;
 
   const { data } = await getProductBySku(sku);
 
