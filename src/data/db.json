@@ -2,7 +2,7 @@
   "products": [
     {
       "sku": "EGG-004",
-      "name": "Free-Range Eggs",
+      "name": "Free-Range Eggs 1",
       "description": "A dozen large free-range eggs with vibrant yolks and firm whites. Hens are raised in open pastures, ensuring high-quality eggs rich in flavor and nutrients. Perfect for any culinary creation.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Eggs_20220410_173301.jpg",
       "category": {
@@ -15,7 +15,7 @@
     },
     {
       "sku": "BRD-005",
-      "name": "Whole Grain Bread",
+      "name": "Whole Grain Bread 2",
       "description": "Freshly baked whole grain bread with a hearty texture and nutty flavor. Made with 100% whole grains, providing fiber and essential nutrients. Ideal for sandwiches or toasting.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Breads_of_Moskovskaya_Oblast._img_006.jpg",
       "category": {
@@ -28,7 +28,7 @@
     },
     {
       "sku": "CHS-006",
-      "name": "Aged Cheddar Cheese",
+      "name": "Aged Cheddar Cheese 3",
       "description": "Sharp and tangy aged cheddar cheese with a firm texture. Perfect for cheese boards, melting over dishes, or snacking. Rich in calcium and protein, enhancing any meal.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Quesos-LaRural-00921.jpg",
       "category": {
@@ -41,7 +41,7 @@
     },
     {
       "sku": "BTR-007",
-      "name": "Unsalted Butter",
+      "name": "Unsalted Butter 4",
       "description": "Creamy unsalted butter made from fresh cream. Ideal for baking, cooking, or spreading, allowing control over seasoning. Adds richness and flavor to any dish.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/2023_Mas%C5%82o_w_maselniczce.jpg",
       "category": {
@@ -54,7 +54,7 @@
     },
     {
       "sku": "YGT-008",
-      "name": "Greek Yogurt",
+      "name": "Greek Yogurt 5",
       "description": "Thick and creamy Greek yogurt with a rich taste. High in protein and probiotics, promoting digestive health. Enjoy plain, with fruits, or as a base for smoothies and sauces.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Yogurtland_Yogurt_High_Res.jpg",
       "category": {
@@ -93,7 +93,7 @@
     },
     {
       "sku": "BNN-003",
-      "name": "Organic Bananas",
+      "name": "Organic Bananas 6",
       "description": "Naturally ripened organic bananas, offering a creamy texture and rich sweetness. Ideal for smoothies, baking, or a quick energy boost. Packed with potassium and dietary fiber for overall well-being.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Banana-Single.jpg/800px-Banana-Single.jpg",
       "category": {
@@ -106,7 +106,7 @@
     },
     {
       "sku": "MLK-004",
-      "name": "Fresh Whole Milk",
+      "name": "Fresh Whole Milk 7",
       "description": "Creamy and rich whole milk sourced from grass-fed cows. Pasteurized to retain natural nutrients and flavor. Ideal for drinking, cooking, or baking, providing essential calcium and protein.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/0/01/Milk-bottle.jpg",
       "category": {
@@ -119,7 +119,7 @@
     },
     {
       "sku": "EGG-005",
-      "name": "Free-Range Eggs",
+      "name": "Free-Range Eggs 8",
       "description": "A dozen large free-range eggs with vibrant yolks and firm whites. Hens are raised in open pastures, ensuring high-quality eggs rich in flavor and nutrients. Perfect for any culinary creation.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Eggs_20220410_173301.jpg",
       "category": {
@@ -132,7 +132,7 @@
     },
     {
       "sku": "BRD-006",
-      "name": "Whole Grain Bread",
+      "name": "Whole Grain Bread 9",
       "description": "Freshly baked whole grain bread with a hearty texture and nutty flavor. Made with 100% whole grains, providing fiber and essential nutrients. Ideal for sandwiches or toasting.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Breads_of_Moskovskaya_Oblast._img_006.jpg",
       "category": {
@@ -145,7 +145,7 @@
     },
     {
       "sku": "CHS-007",
-      "name": "Aged Cheddar Cheese",
+      "name": "Aged Cheddar Cheese 10",
       "description": "Sharp and tangy aged cheddar cheese with a firm texture. Perfect for cheese boards, melting over dishes, or snacking. Rich in calcium and protein, enhancing any meal.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Quesos-LaRural-00921.jpg",
       "category": {
@@ -158,7 +158,7 @@
     },
     {
       "sku": "BTR-008",
-      "name": "Unsalted Butter",
+      "name": "Unsalted Butter 11",
       "description": "Creamy unsalted butter made from fresh cream. Ideal for baking, cooking, or spreading, allowing control over seasoning. Adds richness and flavor to any dish.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/2023_Mas%C5%82o_w_maselniczce.jpg",
       "category": {
@@ -171,7 +171,7 @@
     },
     {
       "sku": "YGT-009",
-      "name": "Greek Yogurt",
+      "name": "Greek Yogurt 12",
       "description": "Thick and creamy Greek yogurt with a rich taste. High in protein and probiotics, promoting digestive health. Enjoy plain, with fruits, or as a base for smoothies and sauces.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Yogurtland_Yogurt_High_Res.jpg",
       "category": {
@@ -184,7 +184,7 @@
     },
     {
       "sku": "BFS-010",
-      "name": "Grass-Fed Beef Steak",
+      "name": "Grass-Fed Beef Steak 13",
       "description": "Juicy and tender beef steak from grass-fed cattle. Rich in flavor and nutrients, perfect for grilling or pan-searing. A premium choice for meat lovers seeking quality.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Eye_Fillet%2C_Grass-Fed_Beef.jpg",
       "category": {
@@ -197,7 +197,7 @@
     },
     {
       "sku": "APL-003",
-      "name": "Crisp Red Apples",
+      "name": "Crisp Red Apples 14",
       "description": "Freshly harvested red apples with a sweet and juicy flavor. Perfect for snacking or baking your favorite pies. These apples are rich in fiber and essential vitamins, promoting a healthy lifestyle.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Manzana_Envy.jpg",
       "category": {
@@ -210,7 +210,7 @@
     },
     {
       "sku": "BNN-004",
-      "name": "Organic Bananas",
+      "name": "Organic Bananas 15",
       "description": "Naturally ripened organic bananas, offering a creamy texture and rich sweetness. Ideal for smoothies, baking, or a quick energy boost. Packed with potassium and dietary fiber for overall well-being.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Banana-Single.jpg/800px-Banana-Single.jpg",
       "category": {
@@ -223,7 +223,7 @@
     },
     {
       "sku": "MLK-005",
-      "name": "Fresh Whole Milk",
+      "name": "Fresh Whole Milk 16",
       "description": "Creamy and rich whole milk sourced from grass-fed cows. Pasteurized to retain natural nutrients and flavor. Ideal for drinking, cooking, or baking, providing essential calcium and protein.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/0/01/Milk-bottle.jpg",
       "category": {
@@ -236,7 +236,7 @@
     },
     {
       "sku": "EGG-006",
-      "name": "Free-Range Eggs",
+      "name": "Free-Range Eggs 17",
       "description": "A dozen large free-range eggs with vibrant yolks and firm whites. Hens are raised in open pastures, ensuring high-quality eggs rich in flavor and nutrients. Perfect for any culinary creation.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Eggs_20220410_173301.jpg",
       "category": {
@@ -249,7 +249,7 @@
     },
     {
       "sku": "BRD-007",
-      "name": "Whole Grain Bread",
+      "name": "Whole Grain Bread 18",
       "description": "Freshly baked whole grain bread with a hearty texture and nutty flavor. Made with 100% whole grains, providing fiber and essential nutrients. Ideal for sandwiches or toasting.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Breads_of_Moskovskaya_Oblast._img_006.jpg",
       "category": {
@@ -262,7 +262,7 @@
     },
     {
       "sku": "CHS-008",
-      "name": "Aged Cheddar Cheese",
+      "name": "Aged Cheddar Cheese 19",
       "description": "Sharp and tangy aged cheddar cheese with a firm texture. Perfect for cheese boards, melting over dishes, or snacking. Rich in calcium and protein, enhancing any meal.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Quesos-LaRural-00921.jpg",
       "category": {
@@ -275,7 +275,7 @@
     },
     {
       "sku": "BTR-009",
-      "name": "Unsalted Butter",
+      "name": "Unsalted Butter 20",
       "description": "Creamy unsalted butter made from fresh cream. Ideal for baking, cooking, or spreading, allowing control over seasoning. Adds richness and flavor to any dish.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/2023_Mas%C5%82o_w_maselniczce.jpg",
       "category": {
@@ -288,7 +288,7 @@
     },
     {
       "sku": "YGT-010",
-      "name": "Greek Yogurt",
+      "name": "Greek Yogurt 21",
       "description": "Thick and creamy Greek yogurt with a rich taste. High in protein and probiotics, promoting digestive health. Enjoy plain, with fruits, or as a base for smoothies and sauces.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Yogurtland_Yogurt_High_Res.jpg",
       "category": {
@@ -301,7 +301,7 @@
     },
     {
       "sku": "BFS-011",
-      "name": "Grass-Fed Beef Steak",
+      "name": "Grass-Fed Beef Steak 22",
       "description": "Juicy and tender beef steak from grass-fed cattle. Rich in flavor and nutrients, perfect for grilling or pan-searing. A premium choice for meat lovers seeking quality.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Eye_Fillet%2C_Grass-Fed_Beef.jpg",
       "category": {
@@ -314,7 +314,7 @@
     },
     {
       "sku": "APL-004",
-      "name": "Crisp Red Apples",
+      "name": "Crisp Red Apples 23",
       "description": "Freshly harvested red apples with a sweet and juicy flavor. Perfect for snacking or baking your favorite pies. These apples are rich in fiber and essential vitamins, promoting a healthy lifestyle.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Manzana_Envy.jpg",
       "category": {
@@ -327,7 +327,7 @@
     },
     {
       "sku": "BNN-005",
-      "name": "Organic Bananas",
+      "name": "Organic Bananas 24",
       "description": "Naturally ripened organic bananas, offering a creamy texture and rich sweetness. Ideal for smoothies, baking, or a quick energy boost. Packed with potassium and dietary fiber for overall well-being.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Banana-Single.jpg/800px-Banana-Single.jpg",
       "category": {
@@ -340,7 +340,7 @@
     },
     {
       "sku": "MLK-006",
-      "name": "Fresh Whole Milk",
+      "name": "Fresh Whole Milk 25",
       "description": "Creamy and rich whole milk sourced from grass-fed cows. Pasteurized to retain natural nutrients and flavor. Ideal for drinking, cooking, or baking, providing essential calcium and protein.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/0/01/Milk-bottle.jpg",
       "category": {
@@ -353,7 +353,7 @@
     },
     {
       "sku": "EGG-007",
-      "name": "Free-Range Eggs",
+      "name": "Free-Range Eggs 26",
       "description": "A dozen large free-range eggs with vibrant yolks and firm whites. Hens are raised in open pastures, ensuring high-quality eggs rich in flavor and nutrients. Perfect for any culinary creation.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Eggs_20220410_173301.jpg",
       "category": {
@@ -366,7 +366,7 @@
     },
     {
       "sku": "BRD-008",
-      "name": "Whole Grain Bread",
+      "name": "Whole Grain Bread 27",
       "description": "Freshly baked whole grain bread with a hearty texture and nutty flavor. Made with 100% whole grains, providing fiber and essential nutrients. Ideal for sandwiches or toasting.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Breads_of_Moskovskaya_Oblast._img_006.jpg",
       "category": {
@@ -379,7 +379,7 @@
     },
     {
       "sku": "CHS-009",
-      "name": "Aged Cheddar Cheese",
+      "name": "Aged Cheddar Cheese 28",
       "description": "Sharp and tangy aged cheddar cheese with a firm texture. Perfect for cheese boards, melting over dishes, or snacking. Rich in calcium and protein, enhancing any meal.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Quesos-LaRural-00921.jpg",
       "category": {
@@ -392,7 +392,7 @@
     },
     {
       "sku": "BTR-0010",
-      "name": "Unsalted Butter",
+      "name": "Unsalted Butter 29",
       "description": "Creamy unsalted butter made from fresh cream. Ideal for baking, cooking, or spreading, allowing control over seasoning. Adds richness and flavor to any dish.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/2023_Mas%C5%82o_w_maselniczce.jpg",
       "category": {
@@ -405,7 +405,7 @@
     },
     {
       "sku": "YGT-011",
-      "name": "Greek Yogurt",
+      "name": "Greek Yogurt 30",
       "description": "Thick and creamy Greek yogurt with a rich taste. High in protein and probiotics, promoting digestive health. Enjoy plain, with fruits, or as a base for smoothies and sauces.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Yogurtland_Yogurt_High_Res.jpg",
       "category": {
@@ -418,7 +418,7 @@
     },
     {
       "sku": "BFS-012",
-      "name": "Grass-Fed Beef Steak",
+      "name": "Grass-Fed Beef Steak 31",
       "description": "Juicy and tender beef steak from grass-fed cattle. Rich in flavor and nutrients, perfect for grilling or pan-searing. A premium choice for meat lovers seeking quality.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Eye_Fillet%2C_Grass-Fed_Beef.jpg",
       "category": {
@@ -431,7 +431,7 @@
     },
     {
       "sku": "APL-005",
-      "name": "Crisp Red Apples",
+      "name": "Crisp Red Apples 32",
       "description": "Freshly harvested red apples with a sweet and juicy flavor. Perfect for snacking or baking your favorite pies. These apples are rich in fiber and essential vitamins, promoting a healthy lifestyle.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Manzana_Envy.jpg",
       "category": {
@@ -444,7 +444,7 @@
     },
     {
       "sku": "BNN-006",
-      "name": "Organic Bananas",
+      "name": "Organic Bananas 33",
       "description": "Naturally ripened organic bananas, offering a creamy texture and rich sweetness. Ideal for smoothies, baking, or a quick energy boost. Packed with potassium and dietary fiber for overall well-being.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Banana-Single.jpg/800px-Banana-Single.jpg",
       "category": {
@@ -457,7 +457,7 @@
     },
     {
       "sku": "MLK-007",
-      "name": "Fresh Whole Milk",
+      "name": "Fresh Whole Milk 34",
       "description": "Creamy and rich whole milk sourced from grass-fed cows. Pasteurized to retain natural nutrients and flavor. Ideal for drinking, cooking, or baking, providing essential calcium and protein.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/0/01/Milk-bottle.jpg",
       "category": {
@@ -470,7 +470,7 @@
     },
     {
       "sku": "EGG-008",
-      "name": "Free-Range Eggs",
+      "name": "Free-Range Eggs 35",
       "description": "A dozen large free-range eggs with vibrant yolks and firm whites. Hens are raised in open pastures, ensuring high-quality eggs rich in flavor and nutrients. Perfect for any culinary creation.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Eggs_20220410_173301.jpg",
       "category": {
@@ -483,7 +483,7 @@
     },
     {
       "sku": "BRD-009",
-      "name": "Whole Grain Bread",
+      "name": "Whole Grain Bread 36",
       "description": "Freshly baked whole grain bread with a hearty texture and nutty flavor. Made with 100% whole grains, providing fiber and essential nutrients. Ideal for sandwiches or toasting.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Breads_of_Moskovskaya_Oblast._img_006.jpg",
       "category": {
@@ -496,7 +496,7 @@
     },
     {
       "sku": "CHS-010",
-      "name": "Aged Cheddar Cheese",
+      "name": "Aged Cheddar Cheese 37",
       "description": "Sharp and tangy aged cheddar cheese with a firm texture. Perfect for cheese boards, melting over dishes, or snacking. Rich in calcium and protein, enhancing any meal.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Quesos-LaRural-00921.jpg",
       "category": {
@@ -509,7 +509,7 @@
     },
     {
       "sku": "BTR-0011",
-      "name": "Unsalted Butter",
+      "name": "Unsalted Butter 38",
       "description": "Creamy unsalted butter made from fresh cream. Ideal for baking, cooking, or spreading, allowing control over seasoning. Adds richness and flavor to any dish.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/2023_Mas%C5%82o_w_maselniczce.jpg",
       "category": {
@@ -522,7 +522,7 @@
     },
     {
       "sku": "YGT-012",
-      "name": "Greek Yogurt",
+      "name": "Greek Yogurt 39",
       "description": "Thick and creamy Greek yogurt with a rich taste. High in protein and probiotics, promoting digestive health. Enjoy plain, with fruits, or as a base for smoothies and sauces.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Yogurtland_Yogurt_High_Res.jpg",
       "category": {
@@ -535,7 +535,7 @@
     },
     {
       "sku": "BFS-013",
-      "name": "Grass-Fed Beef Steak",
+      "name": "Grass-Fed Beef Steak 40",
       "description": "Juicy and tender beef steak from grass-fed cattle. Rich in flavor and nutrients, perfect for grilling or pan-searing. A premium choice for meat lovers seeking quality.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Eye_Fillet%2C_Grass-Fed_Beef.jpg",
       "category": {
