@@ -25,7 +25,7 @@ const ProductList = ({ initialData }: { initialData: TInitialData }) => {
   return (
     <Container maxWidth="lg">
       <SearchInput products={loadedProducts} setFilteredProducts={setFilteredProducts} />
-      <Box component="section" sx={{ p: 2, border: '1px dashed grey' }}>
+      <Box component="section">
         <InfiniteScroll
           pageStart={1}
           loadMore={() => {
